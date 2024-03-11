@@ -2,7 +2,7 @@
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
-  <servers>
+  <https://aws-cicd-pipeline-project-507865399969.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/>
         <server>
             <id>codeartifact</id>
             <username>aws</username>
@@ -15,7 +15,7 @@
     <repositories>
       <repository>
         <id>codeartifact</id>
-    <url>https://java-webapp-maven-repo-835142541205.d.codeartifact.us-east-2.amazonaws.com/maven/maven-central-store/</url>
+    <url>https://aws-cicd-pipeline-project-507865399969.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
       </repository>
     </repositories>
   </profile>
@@ -27,7 +27,7 @@
   <mirror>
     <id>codeartifact</id>
     <name>java-webapp-maven-repo-maven-central-store</name>
-    <url>https://java-webapp-maven-repo-835142541205.d.codeartifact.us-east-2.amazonaws.com/maven/maven-central-store/</url>
+    <url>https://aws-cicd-pipeline-project-507865399969.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
