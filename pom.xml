@@ -29,8 +29,8 @@
     </site>
     <repository>
         <id>codeartifact</id>
-        <name>aws-cicd-pipeline-project-maven-central-store</name>
-    <url>https://https://aws-cicd-pipeline-project-507865399969.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
+        <name>java-webapp-maven-repo-maven-central-store</name>
+    <url>https://java-webapp-maven-repo-767397842293.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
       </repository>
   </distributionManagement>
 
